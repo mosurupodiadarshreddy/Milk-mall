@@ -48,3 +48,21 @@ Added:
 Reason:
 These are generated/cache/build files and not required to push into GitHub repository.
 
+14. Installed Tailwind CSS libraries
+
+Installed:
+npm install -D tailwindcss@3.4.17 postcss autoprefixer
+
+Generated configuration files:
+npx tailwindcss init -p
+
+Created:
+
+* tailwind.config.js
+* postcss.config.js
+
+Purpose:
+Used for faster UI development using utility classes.
+
+Note:
+If any setup issue occurs, refer Google/docs and configure accordingly.
