@@ -66,3 +66,8 @@ Used for faster UI development using utility classes.
 
 Note:
 If any setup issue occurs, refer Google/docs and configure accordingly.
+
+15. Installed React Icons library:
+* npm install react-icons
+Purpose:
+Used to add various icons in the application for better UI and user experience.
