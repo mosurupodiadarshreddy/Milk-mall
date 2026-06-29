@@ -5,6 +5,9 @@ import { initReactI18next } from "react-i18next";
 import en from "./resources/english";
 import te from "./resources/telugu";
 import hi from "./resources/hindi";
+import kn from "./resources/kannada";
+import ta from "./resources/tamil";
+import ml from "./resources/malayalam";
 
 
 // Initialize i18next and connect it with React using initReactI18next
@@ -17,6 +20,9 @@ i18n.use(initReactI18next).init({
     en: { translation: en },
     te: { translation: te },
     hi: { translation: hi },
+    kn: { translation: kn },
+    ta: { translation: ta },
+    ml: { translation: ml },
   },
 
     // Read saved language from localStorage
