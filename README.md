@@ -71,3 +71,9 @@ If any setup issue occurs, refer Google/docs and configure accordingly.
 * npm install react-icons
 Purpose:
 Used to add various icons in the application for better UI and user experience.
+
+16. Created i18n Configuration File
+
+Created `src/i18n/i18n.js` for i18n setup.
+Initialized i18next and connected it with React using `initReactI18next`.
+Configured default language as English and set fallback language support.
