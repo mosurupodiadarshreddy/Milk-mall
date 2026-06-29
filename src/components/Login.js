@@ -15,7 +15,7 @@ const Login = () => {
           }}
         >
             <div className="bg-white shadow-lg rounded-xl p-10">
-                
+
                 <h1 className="text-4xl font-bold text-blue-900 text-center mb-5">
                     {t("loginPage")} 
                 </h1>
@@ -24,7 +24,7 @@ const Login = () => {
 
                 <input type="text" placeholder="Enter Mobile Number" className="w-full border border-gray-300 rounded-lg p-3 mb-4"></input>
                 
-                <button className="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-900">Submit</button>
+                <button className="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-900">{t("submit")}</button>
             </div>
         </div>
     );

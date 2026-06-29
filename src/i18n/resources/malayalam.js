@@ -1,7 +1,7 @@
-const en = {
-  loginPage: "Login Page",
-  mobileNumber: "Mobile Number",
-  submit: "Submit",
+const ml = {
+  loginPage: "ലോഗിൻ പേജ്",
+  mobileNumber: "മൊബൈൽ നമ്പർ",
+  submit: "സമർപ്പിക്കുക",
 };
 
-export default en;
+export default ml;
