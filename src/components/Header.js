@@ -1,12 +1,14 @@
-import react, { useState } from "react";
+import React, { useState } from "react";
 import { FaGlobe } from "react-icons/fa";
 import i18n from "../i18n/i18n";
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
     // State variable to control dropdown visibility
     // false -> dropdown hidden
     // true  -> dropdown visible
     const [showDropDown,setShowDropDown ] = useState(false);
+    const { t } = useTranslation();
 
     // Function to change application language dynamically
     const changeLanguage = (lang) => {
@@ -25,7 +27,7 @@ const Header = () => {
     return(
     <div className="bg-indigo-200 p-3 flex space-x-5 justify-between">
         <h1 className="text-2xl font-bold cursor-pointer">
-            Milk Mall
+            {t("milkMall")}
         </h1>
 
         {/* <div className="flex gap-10 font-medium">
@@ -34,13 +36,13 @@ const Header = () => {
         </div> */}
 
         <div className="relative flex items-center gap-2 cursor-pointer"
-        
+
         // Toggle dropdown visibility on click
         // If false -> becomes true (open)
         // If true  -> becomes false (close) 
         onClick={() => setShowDropDown(!showDropDown)}>
             <FaGlobe className="text-xl" />
-            <span>Language</span>
+            <span>{t("language")}</span>
 
             {/* // Conditional rendering */}
             {/* // Render dropdown only when showDropdown is true similar to if(showDropdown === true){ render dropdown } */}
